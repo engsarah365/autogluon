@@ -1,6 +1,15 @@
-name: autogluon_py3
 dependencies:
-- python=3.9
+- python=3.10
 - pip
 - pip:
-  - flake8
+  - ruff
+  - sphinx
+  - furo
+  - myst_parser
+  - myst-nb
+  - sphinx-material
+  - sphinx-togglebutton
+  - sphinx-copybutton
+  - sphinx-design
+  - sphinx-inline-tabs
+  - sphinxcontrib-googleanalytics
